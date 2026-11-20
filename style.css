@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font: 16px/1.6 system-ui, "Segoe UI", sans-serif; background: #fafafa; color: #1a1a1a; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 16px 0 8px; }
+h2 { font-size: 19px; margin-top: 28px; }
+a { color: #c2185b; }
+.muted { color: #666; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0f0f12; color: #e9e9ee; }
+  a { color: #ff6aab; }
+  .muted { color: #9a9aa5; }
+}
